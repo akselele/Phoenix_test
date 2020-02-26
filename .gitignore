@@ -147,3 +147,6 @@ temp/
 /installer/deps
 
 # End of https://www.gitignore.io/api/node,elixir,phoenix
+
+# Custom ignore rules
+/test-reports
