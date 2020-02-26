@@ -2,10 +2,10 @@ use Mix.Config
 
 # Configure your database
 config :a_demo, ADemo.Repo,
-  username: "root",
-  password: "",
-  database: "a_demo_dev",
-  hostname: "localhost",
+  username: "22pegQ4gKo",
+  password: "pCxaP8RiQ0",
+  database: "22pegQ4gKo",
+  hostname: "remotemysql.com",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
@@ -16,7 +16,7 @@ config :a_demo, ADemo.Repo,
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :a_demo_web, ADemoWeb.Endpoint,
-  http: [port: 4000],
+  http: [port: 3306],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
